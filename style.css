@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+#Travel {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+    margin-top: 10px;
+}
+
+.container-box {
+    border: 2px solid #000;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+
+#Travel h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#Travel img {
+    max-width: 50%;
+    margin: auto;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#Services {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+#Services h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex img {
+    width: 100%;
+    max-width: 350px; 
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.flex img:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex img {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+#About {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+#About h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    color: #333;
+}
+.navbar{
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 15px;
+    width: 100%;
+}
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+

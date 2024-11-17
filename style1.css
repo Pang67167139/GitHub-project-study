@@ -1,0 +1,18 @@
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-image-1 {
+    background: url("https://images.pexels.com/photos/1775053/pexels-photo-1775053.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url("https://images.pexels.com/photos/230743/pexels-photo-230743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url("https://images.pexels.com/photos/1586947/pexels-photo-1586947.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    background-size: cover;
+}
